@@ -14,3 +14,6 @@ export { naming, naming2, log };
 // 以下のように「変数」「関数」で分けるとわかりやすくていいかも。。
 export { naming, naming2 }; //変数
 export { log }; //関数
+
+// エイリアス＝「別名」をexport/importで設定できる(asをつける)
+// export { naming as taku, naming2 as ko, log as logger };

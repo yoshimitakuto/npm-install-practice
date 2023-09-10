@@ -1,5 +1,5 @@
 // モジュール間同士でもデータのやり取り
-import { naming as taku, naming2 as ko, log as logger, naming } from './user.js';
+import { naming as taku, naming2 as ko, log as logger } from './user.js';
 import { naming as naru } from './user2.js'; //importでもエイリアスを使用でき、現場でよく採用されている
 // エイリアス「別名」を使用した時のimport文
 // import { taku, ko, logger } from './user.js';

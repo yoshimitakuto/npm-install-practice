@@ -1,3 +1,4 @@
 const pika = "ピカチュウ";
+const game = "ゼニガメ"
 
-export { pika };
+export { pika, game };
